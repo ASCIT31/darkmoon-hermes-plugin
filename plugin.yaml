@@ -1,0 +1,9 @@
+name: darkmoon
+version: "0.1.0"
+description: "Triage the findings file of a Darkmoon autonomous pentest scan (JSON or SARIF): filter by severity and proof status, get a severity-sorted summary and a pass/fail gate. Read-only, offline, stdlib only."
+author: "ASC-IT (Darkmoon)"
+license: GPL-3.0-only
+homepage: https://github.com/ASCIT31/Dark-Moon
+tags: [security, pentest, sarif]
+provides_tools:
+  - darkmoon_findings
