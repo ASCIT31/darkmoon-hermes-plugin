@@ -1,5 +1,8 @@
 # darkmoon: Hermes plugin for Darkmoon scan findings
 
+> [!IMPORTANT]
+> **License change.** Darkmoon Community is moving from the GNU GPL v3.0 to the GNU AGPL v3.0. Every commit published up to `edfe9cb` (27 October 2026) stays under the GNU GPL v3.0, and the contributions made by outside contributors before the switch also stay under the GNU GPL v3.0 (they are not relicensed). Details: [LICENSING.md](https://github.com/ASCIT31/Dark-Moon/blob/master/LICENSING.md).
+
 [Darkmoon](https://github.com/ASCIT31/Dark-Moon) is an open source (GPL-3.0) autonomous AI penetration testing platform. Its engine and CLI are open source, and a scan produces a findings file (JSON, or SARIF through the [Darkmoon GitHub Action](https://github.com/ASCIT31/darkmoon-action)). This plugin gives a Hermes agent one tool to read that file and triage it.
 
 The web dashboard and the remediation to pull request agent of Darkmoon are Pro features. This plugin does not use them and does not talk to any Darkmoon service.
