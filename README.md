@@ -1,7 +1,9 @@
 # darkmoon: Hermes plugin for Darkmoon scan findings
 
+[![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-0A2472)](LICENSING.md)
+
 > [!IMPORTANT]
-> **License change.** Darkmoon Community is moving from the GNU GPL v3.0 to the GNU AGPL v3.0. Every commit published up to `edfe9cb` (27 October 2026) stays under the GNU GPL v3.0, and the contributions made by outside contributors before the switch also stay under the GNU GPL v3.0 (they are not relicensed). Details: [LICENSING.md](https://github.com/ASCIT31/Dark-Moon/blob/master/LICENSING.md).
+> **License change.** This repository moved from the GNU GPL v3.0 to the GNU AGPL v3.0 on 20 November 2026; every commit up to `db5205c` stays under the GNU GPL v3.0. Darkmoon Community is moving to the GNU AGPL v3.0 too (its commits up to `edfe9cb`, 27 October 2026, and earlier outside contributions stay GPL v3.0). Details: [LICENSING.md](LICENSING.md) · [Darkmoon LICENSING.md](https://github.com/ASCIT31/Dark-Moon/blob/master/LICENSING.md).
 
 [Darkmoon](https://github.com/ASCIT31/Dark-Moon) is an open source (AGPL-3.0) autonomous AI penetration testing platform. Its engine and CLI are open source, and a scan produces a findings file (JSON, or SARIF through the [Darkmoon GitHub Action](https://github.com/ASCIT31/darkmoon-action)). This plugin gives a Hermes agent one tool to read that file and triage it.
 
@@ -47,4 +49,4 @@ python3 -m pytest tests
 hermes plugins validate .
 ```
 
-License: this plugin is GPL-3.0-only, see [LICENSE](./LICENSE). Darkmoon itself is AGPL-3.0, see [LICENSING.md](https://github.com/ASCIT31/Dark-Moon/blob/master/LICENSING.md).
+License: this plugin is AGPL-3.0-only, see [LICENSE](./LICENSE) and [LICENSING.md](./LICENSING.md). Earlier versions, up to commit `db5205c`, stay GPL-3.0-only. Darkmoon itself is AGPL-3.0, see [LICENSING.md](https://github.com/ASCIT31/Dark-Moon/blob/master/LICENSING.md).
